@@ -1,0 +1,55 @@
+.img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+* {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemonlist {
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 550px;
+  margin-top: 5px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.info, .info-poke, .info-type{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.type {
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 20px;
+}
